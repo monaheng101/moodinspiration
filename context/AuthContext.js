@@ -41,6 +41,7 @@ export function AuthProvider({ children }){
 
                 // if the user does not exist
                 if(!user){
+                    console.log('No user found! ')
                     return
                 }
 
